@@ -1,14 +1,35 @@
+<div align="center">
+    <h1>MYPROJECT</h1>
+    <img src="https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg" alt="Workflow status badge">
+</div>
 # ERP Analysis: Decoding Brain Responses to Finger Movements
 
-This project analyzes Event-Related Potentials (ERP) to study the brain's response to finger movements. Using ECoG data and finger movement events, it computes and visualizes mean brain responses, providing insights into neural dynamics during motor tasks.
+This project analyzes **Event-Related Potentials (ERP)** to understand brain responses during finger movements. By aligning finger movement events with brain signals recorded via ECoG electrodes, we compute the mean brain response for each finger over multiple trials. The project provides robust insights into neural activity during motor tasks.
 
 ## Features
-- Extracts brain signal slices (200 ms pre-event to 1000 ms post-event) for each finger.
-- Computes and visualizes mean Event-Related Potentials (ERP) for all fingers.
-- Demonstrates advanced signal processing and data visualization techniques.
+- Extracts brain signal slices (200 ms before to 1000 ms after each event) for every finger movement.
+- Computes the **mean ERP** for each finger across multiple trials.
+- Generates **visualizations** of brain responses for all fingers.
+- Implements efficient signal processing and data handling with Python.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repo.git
-   
+## What to Expect
+- A **5x1201 matrix** representing the mean brain response for each finger.
+  - Rows correspond to the five fingers.
+  - Columns represent time points (-200ms to +1000ms).
+- Visualizations of the mean brain response for each finger, helping you analyze neural patterns during motor tasks.
+- Clean, modular, and reusable Python code.
+
+---
+
+## Requirements
+To run this project, you need:
+- Python 3.8+
+- Required Python libraries:
+  - `pandas`: For data manipulation.
+  - `matplotlib`: For plotting.
+
+You can install the required libraries using the following command:
+```bash
+pip install pandas matplotlib
+
+
