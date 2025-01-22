@@ -1,7 +1,3 @@
-<div align="center">
-    <h1>MYPROJECT</h1>
-    <img src="https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg" alt="Workflow status badge">
-</div>
 # ERP Analysis: Decoding Brain Responses to Finger Movements
 
 This project analyzes **Event-Related Potentials (ERP)** to understand brain responses during finger movements. By aligning finger movement events with brain signals recorded via ECoG electrodes, we compute the mean brain response for each finger over multiple trials. The project provides robust insights into neural activity during motor tasks.
