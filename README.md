@@ -11,3 +11,4 @@ This project analyzes Event-Related Potentials (ERP) to study the brain's respon
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/repo.git
+   
